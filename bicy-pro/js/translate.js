@@ -8,6 +8,9 @@ function eventos(){
     e.preventDefault();
     $("#service").text("Services");
     $("#bikes").text("Bikes");
+    $("#store").text("Store");
+    $("#gallery").text("Gallery");
+    $("#contac").text("Contact us");
     $("#world").text("Location");
     $("#dLabel").text(" language");
     $("#dLabel").append( " <span class='caret'></span>" );
@@ -33,6 +36,7 @@ function eventos(){
     $("#pag1").text("Page 1");
     $("#pag2").text("Page 2");
     $("#pag3").text("Page 3");
+
   })
 
 
@@ -40,6 +44,9 @@ function eventos(){
     e.preventDefault();
     $("#service").text("Servicios");
     $("#bikes").text("Bicicletas");
+    $("#store").text("Tienda");
+    $("#gallery").text("Galeria");
+    $("#contac").text("Contáctanos");
     $("#world").text("Ubicación");
     $("#dLabel").text(" Idioma");
     $("#dLabel").append( " <span class='caret'></span>" );

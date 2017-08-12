@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    
+
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
@@ -30,6 +32,9 @@
     <link href="css/agency.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/design.css">
 
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +47,7 @@
        * element that contains the map. */
       #map {
         height:40rem;
-        border:100px;
+        
       }
       /* Optional: Makes the sample page fill the window. */
      /* html, body {
@@ -50,6 +55,13 @@
         margin: 0;
         padding: 0;
       }*/
+      .logo{
+         padding-top: 0; padding-right: 30px;
+      }
+
+
+
+
       
     </style>
     
@@ -82,13 +94,13 @@
                         <a id="bikes" class="page-scroll" href="#portfolio">Bicicletas</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a id="store" class="page-scroll" href="#about">Tienda</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a id="gallery" class="page-scroll" href="#team">Galeria</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a id="contac" class="page-scroll" href="#contact">Contáctanos</a>
                     </li>
                     <li>
                         <a id="world" class="page-scroll" href="#location">Ubicación</a>
@@ -240,16 +252,18 @@
                 <div class="col-lg-12 text-center">
                     <h2 id="service_page1" class="section-heading">Servicios</h2>
                     <h3 id="service_page2" class="section-subheading text-muted">Servicios que brinda BICY-PRO al publico.</h3>
+                    
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa-stack-1x fa-inverse"><img src="img/icons/bikehelmet.png" style="width:65px;" alt=""></i>
                     </span>
                     <h4 id="service_bikes" class="service-heading">Bicicletas</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Alquiler de bicicletas este servcio incluye el equipo de seguridad. <br>
+                    <button style="width:100px;" class="btn btn-danger col-md-offset-3 col-md-2 form-control">Leer mas</button></p>
                 </div>
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
@@ -257,15 +271,19 @@
                         <i class="fa-stack-1x fa-inverse"><img src="img/icons/gopro.png" style="width:65px;" alt=""></i>
                     </span>
                     <h4 id="accessory" class="service-heading">Accesorios</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    <br>
+                    <button style="width:100px;" class="btn btn-danger col-md-offset-3 col-md-2 form-control">Leer mas</button</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa-stack-1x  fa-inverse"><img src="img/icons/smoothie.png" style="width:65px;" alt=""></i>
                     </span>
                     <h4 id="drinks" class="service-heading">Bebidas</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    <br>
+                    <button style="width:100px;" class="btn btn-danger col-md-offset-3 col-md-2 form-control">Leer mas</button</p>
                 </div>
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
@@ -273,7 +291,21 @@
                         <i class="glyphicon glyphicon-cutlery fa-stack-1x  fa-inverse"></i>
                     </span>
                     <h4 id="food" class="service-heading">Comida</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    <br>
+                      <button style="width:100px;" class="btn btn-danger col-md-offset-3 col-md-2 form-control">Leer mas</button
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa-stack-1x  fa-inverse"><img src="img/icons/trail.png" style="width:70px;"  alt=""><br><br></i>
+                    </span>
+                    <h4 id="food" class="service-heading">Rutas</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    <br>
+                      <button style="width:100px;" class="btn btn-danger col-md-offset-3 col-md-2 form-control">Leer mas</button
+                    </p>
                 </div>
             </div>
         </div>
@@ -307,10 +339,10 @@
                                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
-                                        <img src="img/catalogue/1.jpg" class="img-responsive" alt="">
+                                        <img src="img/catalogue/1.jpg" onclick="lightbox(0)" class="img-responsive" alt="">
                                     </a>
                                     <div class="portfolio-caption">
                                        <h4 class="text-muted">Specialized</h4>
@@ -321,7 +353,7 @@
                                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa-3x"><img class="col-md-5" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/2.jpg" class="img-responsive" alt="">
@@ -336,7 +368,7 @@
                                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/3.jpg" class="img-responsive" alt="">
@@ -350,7 +382,7 @@
                                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/4.jpg" class="img-responsive" alt="">
@@ -364,7 +396,7 @@
                                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/5.jpg" class="img-responsive" alt="">
@@ -378,7 +410,7 @@
                                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/6.jpg" class="img-responsive" alt="">
@@ -396,10 +428,10 @@
                        <div class="well">
                            <div class="row">
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/7.jpg" class="img-responsive" alt="">
@@ -410,10 +442,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/8.jpg" class="img-responsive" alt="">
@@ -424,10 +456,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/9.jpg" class="img-responsive" alt="">
@@ -438,10 +470,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/10.jpg" class="img-responsive" alt="">
@@ -452,10 +484,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/11.jpg" class="img-responsive" alt="">
@@ -466,10 +498,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/12.jpg" class="img-responsive" alt="">
@@ -487,10 +519,10 @@
                         <div class="well">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/13.jpg" class="img-responsive" alt="">
@@ -501,10 +533,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 portfolio-item">
-                                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                    <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/14.jpg" class="img-responsive" alt="">
@@ -518,7 +550,7 @@
                                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/14.jpg" class="img-responsive" alt="">
@@ -532,7 +564,7 @@
                                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/10.jpg" class="img-responsive" alt="">
@@ -546,7 +578,7 @@
                                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/11.jpg" class="img-responsive" alt="">
@@ -560,7 +592,7 @@
                                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/catalogue/9.jpg" class="img-responsive" alt="">
@@ -582,7 +614,7 @@
                                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
@@ -596,7 +628,7 @@
                                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                                         <div class="portfolio-hover">
                                             <div class="portfolio-hover-content">
-                                                <i class="fa fa-bicycle fa-3x"></i>
+                                                <i class="fa-3x"><img class="logo" src="img/bicy-pro/logobicy-pro.png" alt=""></i>
                                             </div>
                                         </div>
                                         <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
@@ -861,7 +893,7 @@
     </section>
         
      <!-- Clients Aside -->
-    <aside class="clients" style="background-color:#A9A9A9;">
+   <!--  <aside class="clients" style="background-color:#A9A9A9;">
         <div class="container">
             <div class="row">
                 <h4 >Nuestras marcas</h4>
@@ -875,27 +907,27 @@
                     <img src="img/marcs/cannondale.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="col-md-2 col-sm-2">
-                    <!-- <a href="#"> -->
+                    
                         <img src="img/marcs/mongoose.png" style="width:200px" class="col-md-7 img-responsive img-centered" alt="">
-                    <!-- </a> -->
+                   
                 </div>
                 <div class="col-md-2 col-sm-2">
-                    <!-- <a href="#"> -->
+                    
                         <br>
                         <img src="img/marcs/trek.png" class="img-responsive img-centered" alt="">
-                    <!-- </a> -->
+                   
                 </div>
                 <div class="col-md-2 col-sm-2">
-                    <!-- <a href="#"> -->
+                    
                         <br><br>
                         <img src="img/marcs/giant.png" class="img-responsive img-centered" alt="">
-                    <!-- </a> -->
+                   
                 </div>
                 <div class="col-md-2 col-sm-2">
-                    <!-- <a href="#"> -->
+                    
                         <br><br>
                         <img src="img/marcs/jamis.png" class="img-responsive img-centered" alt="">
-                    <!-- </a> -->
+                   
                 </div>
                 
                 
@@ -903,7 +935,7 @@
             </div>
         </div>
     </aside>       
-    
+     -->
 
   
 
@@ -993,7 +1025,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h2 class="section-heading">Galeria</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -1133,11 +1165,8 @@
             <div class="col-md-6">
                 <label for="">asdasdasd</label>
             </div>
-            <div class="col-md-6">
-                <div id="map"  >
-                   
-                </div>
-                
+            <div class="col-md-6 well">
+                <div id="map"></div>
             </div>
         </div>
     </section>
@@ -1175,8 +1204,8 @@
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1185,33 +1214,65 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 ">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/catalogue/1.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider1" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider1" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider1" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider1" data-slide-to="2"></li>
+                                
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider1" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider1" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                           
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1220,26 +1281,64 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/catalogue/2.jpg" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider2" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider2" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider2" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider2" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/4.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider2" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider2" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1248,27 +1347,64 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/catalogue/3.jpg" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider3" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider3" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider3" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider3" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/4.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/5.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider3" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider3" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1277,27 +1413,64 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider4" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider4" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider4" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider4" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/4.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/5.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/6.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider4" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider4" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1306,27 +1479,64 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider5" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider5" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider5" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider5" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/5.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/6.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/7.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider5" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider5" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -1335,23 +1545,591 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider6" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider6" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider6" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider6" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/6.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/7.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/8.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider6" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider6" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider7" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider7" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider7" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider7" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/7.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/8.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/9.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider7" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider7" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider8" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider8" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider8" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider8" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/8.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/9.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/10.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider8" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider8" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider9" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider9" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider9" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider9" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/9.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/10.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/11.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider9" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider9" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider10" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider10" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider10" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider10" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/10.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/11.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/12.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider10" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider10" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 11 -->
+    <div class="modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider11" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider11" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider11" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider11" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/11.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/12.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/13.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider11" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider11" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider12" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider12" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider12" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider12" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/12.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/13.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/14.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider12" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider12" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 13 -->
+    <div class="modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider13" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider13" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider13" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider13" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/13.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/14.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider13" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider13" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 14 -->
+    <div class="modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-lg-11">
+                            
+                        <div id="bootstrap-touch-slider14" style="position: absolute;left:10rem; top:5rem;" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="false" >
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#bootstrap-touch-slider14" data-slide-to="0" class="active"></li>
+                                <li data-target="#bootstrap-touch-slider14" data-slide-to="1"></li>
+                                <li data-target="#bootstrap-touch-slider14" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!-- Third Slide -->
+                                <div class="item active">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/14.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Second Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                                <!-- End of Slide -->
+
+                                <!-- Four Slide -->
+                                <div class="item">
+                                    <!-- Slide Background -->
+                                    <img src="img/catalogue/2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                                </div>
+                            </div><!-- End of Wrapper For Slides -->
+
+                                <!-- Left Control -->
+                            <a class="left carousel-control" href="#bootstrap-touch-slider14" role="button" data-slide="prev">
+                                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Right Control -->
+                            <a class="right carousel-control" href="#bootstrap-touch-slider14" role="button" data-slide="next">
+                                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div> <!-- End  bootstrap-touch-slider Slider -->
+                            
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
