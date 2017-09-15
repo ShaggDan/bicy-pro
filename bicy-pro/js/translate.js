@@ -17,6 +17,8 @@ function eventos(){
     $("#en").text("English");
     $("#es").text("Spanish");
 
+    $("#share").text("Share");
+
     $("#title1").text("Mountain bikes");
     $("#description1").text("Professional bicycle rental");
     $("#brand").text("Variety of brands");
@@ -47,7 +49,9 @@ function eventos(){
     $("#pag3").text("Page 3");
 
     $("#gallery_label").text("Gallery");
-    $("#btn-instafeed-load").text("See more");
+    $("#btn_insta").text("Follow us on");
+    $("#btn-instafeed-load").text("Load more");
+
 
   })
 
@@ -64,6 +68,8 @@ function eventos(){
     $("#dLabel").append( " <span class='caret'></span>" );
     $("#en").text("Ingles");
     $("#es").text("Español");
+
+    $("#share").text("Compartir");
 
     $("#title1").text("Bicicletas de montaña");
     $("#description1").text("Alquiler de bicicletas profesionales");
@@ -95,7 +101,9 @@ function eventos(){
     $("#pag3").text("Pagina 3");
 
     $("#gallery_label").text("Galeria");
-    $("#btn-instafeed-load").text("Ver mas");
+    $("#btn-instafeed-load").text("Cargar mas");
+
+    $("#btn_insta").text("Siganos en");
   })
 }
 

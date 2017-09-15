@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+
    
 
     
@@ -98,7 +100,7 @@
                         <a id="bikes" class="page-scroll" href="#portfolio">Bicicletas</a>
                     </li>
                     <li>
-                        <a id="store" class="page-scroll" href="#about">Tienda</a>
+                        <!-- <a id="store" class="page-scroll" href="#about">Tienda</a> -->
                     </li>
                     <li>
                         <a id="gallery" class="page-scroll" href="#team">Galeria</a>
@@ -136,6 +138,22 @@
 
     <!-- Header -->
     <header>
+    <div id="container-floating">
+
+     
+      <a href=""><div class="nd4 nds" data-toggle="tooltip" data-placement="left" data-original-title="contract@gmail.com"><img class="reminder"></a>
+       
+      </div>
+      <div class="nd3 nds" data-toggle="tooltip" data-placement="left" data-original-title="Reminder"><img class="reminder" /></div>
+      <div id="bshare_fb" class="btn nd1 nds" ></div>
+
+      <div id="floating-button" data-toggle="tooltip" data-placement="left" data-original-title="Create" onclick="newmail()">
+        <p  style="font-size: x-small" class="plus"><b id="share">Compartir</b></p>
+        <img class="edit" src="img/icons/share.png">
+      </div>
+
+    </div>
+
       <!--   <br><br><br><br><br><br>
         <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
     <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
@@ -902,7 +920,7 @@
     </section>
         
      <!-- Clients Aside -->
-   <!--  <aside class="clients" style="background-color:#A9A9A9;">
+    <aside class="clients" style="background-color:#A9A9A9;">
         <div class="container">
             <div class="row">
                 <h4 >Nuestras marcas</h4>
@@ -944,12 +962,12 @@
             </div>
         </div>
     </aside>       
-     -->
+    
 
   
 
     <!-- About Section -->
-    <section id="about">
+  <!--   <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -1027,7 +1045,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -1036,6 +1054,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 id="gallery_label" style="color:#FFD700" class="section-heading">Galeria</h2>
                     <br>
+                    <button onclick="window.open(href='https://www.instagram.com/bicypro/')"  id="" class="btn_insta" style="font-size:20px; font-family: 'Lobster', cursive;" ><label for="" id="btn_insta">Siguenos en </label> <img  style=" margin-left: 10px; position:relative; width:40px;" src="img/icons/Instagram.png" alt=""></button>
                 </div>
             </div>
             
@@ -1048,7 +1067,7 @@
 
             </div>
 
-            <button id="btn-instafeed-load" class="btn">Ver mas</button>
+            <button id="btn-instafeed-load"  class="btn">Cargar mas</button>
             
         </div>
     </section>
@@ -1104,13 +1123,16 @@
 
     <!-- map -->   
     <section id="location" class="bg-light-gray">
-        <div class="row">
-            <div class="col-md-6">
-                <label for="">asdasdasd</label>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="">asdasdasd</label>
+                </div>
+                <div class="col-md-6 well">
+                    <div id="map"></div>
+                </div>
             </div>
-            <div class="col-md-6 well">
-                <div id="map"></div>
-            </div>
+            
         </div>
     </section>
         
@@ -2007,6 +2029,8 @@
         </div>
     </div>
 
+   
+
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
    
@@ -2076,6 +2100,9 @@
 
     </script>
     <script src="js/translate.js"></script>
+
+ <script src='http://connect.facebook.net/en_US/all.js'></script>
+
     
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJJakQIAxdU-sAGgmFAzB692VAqhWj5AQ &callback=initMap">
@@ -2086,6 +2113,17 @@
         // do something…
         })
     </script>
+
+    <script>
+    document.getElementById('bshare_fb').onclick = function() {
+      FB.ui({
+  method: 'share',
+  href: 'https://www.specialized.com/hn/ea',
+}, function(response){});
+    }
+    </script>
+
+    
     
 
      <!-- Intafeed JS -->
